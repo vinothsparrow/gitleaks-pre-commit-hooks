@@ -1,0 +1,6 @@
+- id: gitleaks
+  name: Detect hardcoded secrets
+  description: Detect hardcoded secrets using Gitleaks
+  entry: ./gitleaks.sh
+  language: script
+  pass_filenames: false

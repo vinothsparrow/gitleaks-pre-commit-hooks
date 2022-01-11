@@ -6,6 +6,7 @@
 ```
 repos:
   - repo: https://github.com/vinothsparrow/gitleaks-pre-commit-hooks
+    ref: v0.0.1
     hooks:
       - id: gitleaks
 ```
